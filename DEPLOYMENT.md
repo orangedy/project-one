@@ -13,10 +13,9 @@ This project is a Next.js app and supports deployment on Vercel, Render, and Rai
 ## Railway
 
 1. In Railway, create a new project from this repository.
-2. Railway will use `railway.json` and run:
-   - Build: Nixpacks auto-detect
+2. Railway will use `railway.json` with Dockerfile build:
+   - Build: `Dockerfile`
    - Start: `npm run start:railway`
-3. `nixpacks.toml` pins Node.js 22 and uses `npm run build` in build phase.
 
 ## Runtime Notes
 
