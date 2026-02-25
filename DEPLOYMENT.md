@@ -16,6 +16,7 @@ This project is a Next.js app and supports deployment on Vercel, Render, and Rai
 2. Railway will use `railway.json` and run:
    - Build: Nixpacks auto-detect
    - Start: `npm run start:railway`
+3. `nixpacks.toml` pins Node.js 22 and uses `npm run build` in build phase.
 
 ## Runtime Notes
 
